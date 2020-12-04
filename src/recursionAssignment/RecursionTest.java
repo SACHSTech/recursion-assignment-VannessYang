@@ -15,4 +15,11 @@ public class RecursionTest{
       assertEquals(0, Recursion.countHi(""));
     }
     
+    /**
+     * Problem Set 1: Testing base case 
+     */
+    @Test
+    public void Test2(){
+      assertEquals(1, Recursion.countHi("hi"));
+    }
 }

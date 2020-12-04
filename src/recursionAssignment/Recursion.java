@@ -6,7 +6,7 @@ public class Recursion{
     if(str.equals("")){
       return 0; 
     }
-    return(1);
+    return(100);
 
   }
 }
