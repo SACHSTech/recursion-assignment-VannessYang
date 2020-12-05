@@ -24,10 +24,18 @@ public class RecursionTest{
     }
 
     /**
-     * Problem Set 1: Testing recursive step 
+     * Problem Set 1: Testing recursive step again
      */
     @Test
     public void Test3(){
       assertEquals(2, Recursion.countHi("xhixhix"));
+    }
+
+    /**
+     * Problem Set 1: Testing recursive step one more time
+     */
+    @Test
+    public void Test4(){
+      assertEquals(1, Recursion.countHi("xxhixx"));
     }
 }
