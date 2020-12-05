@@ -17,8 +17,9 @@ public class Recursion{
   public static String endX(String str){
     if (str.equals("")) {
       return "";
+    }else if (str.substring(0,1).equals("x")){
+      return endX(str.substring(1)) + "x";
     }
-    
     return str;
   }
 }
