@@ -31,8 +31,14 @@ public class Recursion{
     // Base Case
     if (str.equals("")) {
       return "";
+    }else if (str.substring(1).equals("")) {
+      return str.substring(0,1) + stringClean(str.substring(1));
+    }else if (!str.substring(1,2).equals("") && str.substring(0,1).equals(str.substring(1,2))) {
+      return str.substring(0,1) + stringClean(str.substring(2));
+    }else{
+      return str.substring(0,1) + stringClean(str.substring(1));
     } 
-    return str;
+    //return str;
   }
 }
 
