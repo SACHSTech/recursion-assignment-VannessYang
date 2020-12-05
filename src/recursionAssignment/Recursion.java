@@ -21,8 +21,10 @@ public class Recursion{
     // Recursive Step if there is an x
     }else if (str.substring(0,1).equals("x")){
       return endX(str.substring(1)) + "x";
+    }else{
+      return str.substring(0,1) + endX(str.substring(1));
     }
-    return str;
+    //return str;
   }
 }
 
