@@ -15,8 +15,10 @@ public class Recursion{
   }
 
   public static String endX(String str){
+    // Base Case
     if (str.equals("")) {
       return "";
+    // Recursive Step if there is an x
     }else if (str.substring(0,1).equals("x")){
       return endX(str.substring(1)) + "x";
     }

@@ -54,4 +54,12 @@ public class RecursionTest{
     public void Test6(){
       assertEquals("rexx", Recursion.endX("xxre"));
     }
+
+    /** 
+     * Problem Set 2: Testing recursive step agian 
+     */
+    @Test
+    public void Test7(){
+      assertEquals("hix", Recursion.endX("hxi"));
+    }
 }
