@@ -15,7 +15,11 @@ public class Recursion{
   }
 
   public static String endX(String str){
-    return "";
+    if (str.equals("")) {
+      return "";
+    }
+    
+    return str;
   }
 }
 
