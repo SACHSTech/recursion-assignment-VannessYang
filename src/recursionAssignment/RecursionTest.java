@@ -16,10 +16,18 @@ public class RecursionTest{
     }
     
     /**
-     * Problem Set 1: Testing base case 
+     * Problem Set 1: Testing recursive step 
      */
     @Test
     public void Test2(){
       assertEquals(1, Recursion.countHi("hi"));
+    }
+
+    /**
+     * Problem Set 1: Testing recursive step 
+     */
+    @Test
+    public void Test3(){
+      assertEquals(2, Recursion.countHi("xhixhix"));
     }
 }
