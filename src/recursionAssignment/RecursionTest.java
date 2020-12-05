@@ -38,4 +38,12 @@ public class RecursionTest{
     public void Test4(){
       assertEquals(1, Recursion.countHi("xxhixx"));
     }
+
+    /**
+     * Problem Set 2: Testing base case
+     */
+    @Test
+    public void Test5(){
+      assertEquals("", Recursion.endX(""));
+    }
 }
