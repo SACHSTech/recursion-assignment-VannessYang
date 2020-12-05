@@ -28,7 +28,10 @@ public class Recursion{
   }
 
   public static String stringClean(String str){
-    return "";
+    // Base Case
+    if (str.equals("")) {
+      return "";
+    } 
   }
 }
 
