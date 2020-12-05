@@ -94,4 +94,12 @@ public class RecursionTest{
     public void Test11(){
       assertEquals("yza", Recursion.stringClean("yyzza"));
     }
+
+    /** 
+     * Problem Set 3: Testing recursive step
+     */
+    @Test
+    public void Test12(){
+      assertEquals("abcd", Recursion.stringClean("abbbcdd"));
+    }
 }
