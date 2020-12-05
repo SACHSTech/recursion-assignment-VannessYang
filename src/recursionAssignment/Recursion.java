@@ -8,8 +8,9 @@ public class Recursion{
     // Recursive Step 
     }else if(str.substring(0,1).equals("h") && str.substring(1,2).equals("i")){
       return 1 + countHi(str.substring(2));
+    }else{
+      return 0 + countHi(str.substring(1));
     }
-    return 100;
   }
 }
 
