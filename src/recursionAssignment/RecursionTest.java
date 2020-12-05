@@ -62,4 +62,20 @@ public class RecursionTest{
     public void Test7(){
       assertEquals("hix", Recursion.endX("hxi"));
     }
+
+    /** 
+     * Problem Set 2: Testing recursive step more 
+     */
+    @Test
+    public void Test8(){
+      assertEquals("hixxxx", Recursion.endX("xxhixx"));
+    }
+
+    /** 
+     * Problem Set 2: Testing recursive step one more time 
+     */
+    @Test
+    public void Test9(){
+      assertEquals("hihixxx", Recursion.endX("xhixhix"));
+    }
 }

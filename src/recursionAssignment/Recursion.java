@@ -18,13 +18,13 @@ public class Recursion{
     // Base Case
     if (str.equals("")) {
       return "";
-    // Recursive Step if there is an x
+    // Recursive Step if there is an x 
     }else if (str.substring(0,1).equals("x")){
       return endX(str.substring(1)) + "x";
+    // Recursive Step if there is no x 
     }else{
       return str.substring(0,1) + endX(str.substring(1));
     }
-    //return str;
   }
 }
 
