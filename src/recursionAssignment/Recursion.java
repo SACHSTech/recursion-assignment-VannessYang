@@ -32,6 +32,7 @@ public class Recursion{
     if (str.equals("")) {
       return "";
     } 
+    return str;
   }
 }
 
