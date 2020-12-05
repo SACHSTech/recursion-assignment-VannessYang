@@ -78,4 +78,12 @@ public class RecursionTest{
     public void Test9(){
       assertEquals("hihixxx", Recursion.endX("xhixhix"));
     }
+
+    /** 
+     * Problem Set 3: Testing base case
+     */
+    @Test
+    public void Test10(){
+      assertEquals("", Recursion.stringClean(""));
+    }
 }
