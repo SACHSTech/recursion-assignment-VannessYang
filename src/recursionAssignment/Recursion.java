@@ -15,7 +15,7 @@ public class Recursion{
   }
 
   public static String endX(String str){
-    
+    return "";
   }
 }
 
